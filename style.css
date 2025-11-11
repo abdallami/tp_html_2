@@ -18,8 +18,19 @@ main{
 }
 .div1-contenu1{
 background-color:#fff;
-width:370px;
+width:35%;
 
+
+}
+.div_titre{
+    background-color:#fff;
+    width: 52%;
+    margin-left: 70px;
+}
+.div_paragraphe{
+    background-color:#fff;
+    width:78%;
+    margin-left: 60px;
 }
 
 .titre-p{
@@ -49,7 +60,7 @@ width:370px;
 }
 .in{
     margin-left: 10px;
-    font-size: 0.90em;
+    font-size: 0.80em;
 
 }
 .in i {
@@ -58,7 +69,7 @@ width:370px;
 .incon-2{
      display: flex;
      background-color:rgb(230, 214, 214);
-     margin-top: 10px;
+     margin-top: 7px;
     padding-top: 7px;
     padding-bottom: 7px;
     width: 90%;
@@ -70,16 +81,16 @@ width:370px;
 .titre_2{
    margin-left: 10px;
    margin-top: 1px;
-    font-size: 0.90em;
+    font-size: 0.80em;
    border-radius: 50px;
 
 }
 .incon-3{
     display: flex;
     background-color: rgb(230, 214, 214);
-    margin-top: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 90%;
     border-radius: 5px;
     height: 20px;
@@ -88,12 +99,12 @@ width:370px;
 .incon-1 .titres{
     margin-top: 1px;
     margin-left: 10px;
-     font-size: 0.90em;
+     font-size: 0.80em;
 }
 .contenu-2{
     background-color: rgb(64, 5, 119);
     width: 40%;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -120,7 +131,7 @@ color: rgb(138, 43, 226);
 .deuxie_par{
     color: #fff;
 }
-.div_p{
+.deuxiemeparagraphe{
     color: #fff;
 }
 .contenu-global{
@@ -138,24 +149,24 @@ color: rgb(138, 43, 226);
 .contenu-3{
      background-color: rgb(64, 5, 119);
     width: 40%;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
      margin-left: 20px;
      margin-top: 20px;
-     margin-right: 55px;
 }
 .contenu-4{
       background-color: rgb(64, 5, 119);
     width: 83%;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
      margin-top: 20px;
-     margin-right:60px;
 
 }
 @media screen and (max-width: 1072px) {
     .contenu-global { padding: 20px; padding-top: 10px; }
     .div1-contenu1,
+     .div_titre,
+    .div_paragraphe,
     .contenu-2,
     .contenu-3,
     .div2-contenu1,
@@ -202,9 +213,6 @@ padding-bottom: 15px;}
     .contenu-2,.contenu-3,.contenu-4 { width: 100%;
         margin-right: 0px;
 
-    }
-    .titre_1{
-        margin-left: 20px;
     }
 
 }
